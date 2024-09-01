@@ -1,0 +1,68 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+
+    background-color: black !important;
+    
+}
+
+.nav-link {
+
+    color: white !important;
+
+}
+
+#logo { 
+
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+
+}
+
+#home-container{
+    margin-top: 25px;
+    // background-color: lightyellow;
+}
+
+.jumbotron {
+
+    background-image: asset-url('writing_unsplash.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+    font-weight: bold !important;
+    color: black !important;
+    background-color: lightyellow;
+
+
+}
+
+.highlight-box {
+    background-color: rgba(255, 255, 255, 0.7); /* White background for the text box */; /* Purple border around the text box */
+    padding: 10px; /* Adds space inside the box */
+    border-radius: 5px; /* Optional: rounds the corners of the box */
+    display: inline-block; /* Ensures the box only wraps around the text */
+  }
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: beige;
+  
+}
+
+/* Other Classes for Page Styling */
+
+
+
